@@ -1,0 +1,83 @@
+VAR Qequiped = false
+
+VAR Qrope = false
+VAR Qwindow = false
+VAR Qfather = false
+
+VAR QtellParent = false
+
+VAR QmomWord = false
+
+VAR QlookMom = false
+VAR QlookFather = false
+
+VAR QfatherEating = false
+VAR QwatchTV = false
+
+VAR Qclock = false
+VAR Qmemory = false
+VAR Qsleep = false
+
+VAR Qtv = false
+VAR Qeye = false
+=== QSpace ===
+
+#CLEAR
+Welcome to your mental space.
+
+In here, you could would get more details.
+
+Tips: 12 collections, find the specific key and lock the final part of stroy.
+
+->Question
+
+=== Question ===
+
++{Qequiped}1.Night glasses and walking stick
+You get used to weaing glasses and get stick with you since you blind. 
+
++{Qtv}2. TV
+Remember the info provided by TV
+
++{Qclock}3. Clock
+Wake up at the same time.
+    ++[Clock broken]Clock working properly.
+    ++[Stuck in loop]Sci-fic? It is real? Stuck in loop?
+
++{Qrope && Qwindow && Qfather}4.Go outside
+You wanna go outside but be stopped by your dad？
+    ++[Rope]The length of rope is enough for you out of apartment from the window of your bedroom！
+    ++[Fight with your dad] Impossible!
+
++{QtellParent}5. Abnormal parent behaviour 
+
+Their reaction and behaviour is abnormal.
+
++{QmomWord}6. Meal
+You comment the meal, espcailly the texture of beaf. It's means you already can see things.
+
++{QlookMom && QlookFather}7.Dad is younger than mom
+Why they out appreance is not look like abnormal?
+    ++[Dad] Dad don't do much skin care.
+    ++[Mom] Mom's work also hard like dad.
+
++{Qfather}8.Two knifes and two forks
+    ++[Dad]If dad is not hungry? Or never feel hungry?
+    ++[Mom]If mom is forget to prepare, dad would be memtion that.
+
++{QwatchTV}9.TV remoter
+You grabe TV remoter and open TV, which means you could see things.
+
++{Qmemory}10.Unclear part in photo
+Unclear part, which indicate that you haven't seen your dad for a long time.
+
++{Qsleep}11.Stange smell
+The stange smell is the key to let you lost your consciousness.
+
++{Qeye}12.Corneal transplantation
+The provider is not your parents。
+
++[Wake Up...]->AwakeBedRoom
+
+-
+->Question
